@@ -11,4 +11,6 @@
  */
 export function getMiddle(arr) {
   // TODO
+  const middle = (arr.slice(1, -1))
+  return middle
 }
