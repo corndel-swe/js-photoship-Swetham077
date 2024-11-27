@@ -12,4 +12,6 @@
  */
 export function convertFilesizes(arr) {
   // TODO
+  const convertedfile = arr.map(file => file /1000)
+  return convertedfile
 }
