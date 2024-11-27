@@ -12,4 +12,6 @@
  */
 export function formatPrice(amount, currency) {
   // TODO
+  const formatprice = amount.toFixed(2)
+  return  currency + formatprice
 }
