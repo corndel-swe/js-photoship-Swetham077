@@ -11,4 +11,6 @@
  */
 export function nameTag(name) {
   // TODO
+  const uppername = name.toLocaleUpperCase();
+  return `Hello, my name is ${uppername}!`;
 }
